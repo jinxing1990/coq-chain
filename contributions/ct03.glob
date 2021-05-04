@@ -1,0 +1,107 @@
+DIGEST 41bbca0e94663ef6f874c63b7f58b995
+FCoqChain.ct03
+R15:18 CoqChain.ct01 <> <> lib
+ax 33:50 <> perm_nil_sort_cons
+R66:68 Coq.Init.Datatypes <> nat ind
+binder 62:62 <> a:1
+R75:78 Coq.Init.Datatypes <> list ind
+R80:82 Coq.Init.Datatypes <> nat ind
+binder 72:72 <> l:2
+R105:108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R109:109 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R113:115 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R124:126 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R165:165 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R116:119 Coq.Init.Datatypes <> list ind
+R121:123 Coq.Init.Datatypes <> nat ind
+binder 110:112 <> l'0:3
+R137:140 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R127:132 CoqChain.ct00 <> sorted def
+R134:136 CoqChain.ct03 <> l'0:3 var
+R141:151 CoqChain.ct00 <> permutation def
+R159:162 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R158:158 CoqChain.ct03 <> a:1 var
+R163:163 CoqChain.ct03 <> l:2 var
+R153:155 CoqChain.ct03 <> l'0:3 var
+R89:99 CoqChain.ct00 <> permutation def
+R104:104 CoqChain.ct03 <> l:2 var
+R101:102 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+ax 180:192 <> sort_ind_case
+R211:213 Coq.Init.Datatypes <> nat ind
+binder 204:204 <> a:5
+binder 206:207 <> a0:6
+R226:229 Coq.Init.Datatypes <> list ind
+R231:233 Coq.Init.Datatypes <> nat ind
+binder 217:218 <> l':7
+binder 220:220 <> l:8
+binder 222:222 <> x:9
+R257:260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R285:291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R300:303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R327:332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R333:333 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R337:339 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R348:350 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R389:389 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R340:343 Coq.Init.Datatypes <> list ind
+R345:347 Coq.Init.Datatypes <> nat ind
+binder 334:336 <> l'0:10
+R361:364 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R351:356 CoqChain.ct00 <> sorted def
+R358:360 CoqChain.ct03 <> l'0:10 var
+R365:375 CoqChain.ct00 <> permutation def
+R383:386 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R382:382 CoqChain.ct03 <> a:5 var
+R387:387 CoqChain.ct03 <> l:8 var
+R377:379 CoqChain.ct03 <> l'0:10 var
+R304:314 CoqChain.ct00 <> permutation def
+R320:323 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R319:319 CoqChain.ct03 <> a:5 var
+R324:325 CoqChain.ct03 <> l':7 var
+R316:316 CoqChain.ct03 <> x:9 var
+R292:297 CoqChain.ct00 <> sorted def
+R299:299 CoqChain.ct03 <> x:9 var
+R261:271 CoqChain.ct00 <> permutation def
+R284:284 CoqChain.ct03 <> l:8 var
+R276:279 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R274:275 CoqChain.ct03 <> a0:6 var
+R280:281 CoqChain.ct03 <> l':7 var
+R240:245 CoqChain.ct00 <> sorted def
+R250:253 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R248:249 CoqChain.ct03 <> a0:6 var
+R254:255 CoqChain.ct03 <> l':7 var
+prf 399:410 <> sort_prog_IH
+R426:428 Coq.Init.Datatypes <> nat ind
+binder 422:422 <> a:12
+R439:442 Coq.Init.Datatypes <> list ind
+R444:446 Coq.Init.Datatypes <> nat ind
+binder 432:432 <> l:13
+binder 434:435 <> l':14
+R461:464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R481:487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R488:488 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R492:494 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R503:505 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R544:544 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R495:498 Coq.Init.Datatypes <> list ind
+R500:502 Coq.Init.Datatypes <> nat ind
+binder 489:491 <> l'0:15
+R516:519 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R506:511 CoqChain.ct00 <> sorted def
+R513:515 CoqChain.ct03 <> l'0:15 var
+R520:530 CoqChain.ct00 <> permutation def
+R538:541 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R537:537 CoqChain.ct03 <> a:12 var
+R542:542 CoqChain.ct03 <> l:13 var
+R532:534 CoqChain.ct03 <> l'0:15 var
+R465:475 CoqChain.ct00 <> permutation def
+R480:480 CoqChain.ct03 <> l:13 var
+R477:478 CoqChain.ct03 <> l':14 var
+R452:457 CoqChain.ct00 <> sorted def
+R459:460 CoqChain.ct03 <> l':14 var
+R607:624 CoqChain.ct03 <> perm_nil_sort_cons prfax
+R607:624 CoqChain.ct03 <> perm_nil_sort_cons prfax
+R714:729 Coq.Sorting.Permutation <> Permutation_refl thm
+R714:729 Coq.Sorting.Permutation <> Permutation_refl thm
+R756:768 CoqChain.ct03 <> sort_ind_case prfax
+R756:768 CoqChain.ct03 <> sort_ind_case prfax

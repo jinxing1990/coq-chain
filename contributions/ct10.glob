@@ -1,0 +1,56 @@
+DIGEST 31b667ea716f2404841363502841e526
+FCoqChain.ct10
+R15:18 CoqChain.ct07 <> <> lib
+prf 28:42 <> inserted_sorted
+R61:63 Coq.Init.Datatypes <> nat ind
+binder 54:55 <> a0:1
+binder 57:57 <> a:2
+R74:77 Coq.Init.Datatypes <> list ind
+R79:81 Coq.Init.Datatypes <> nat ind
+binder 67:68 <> l':3
+binder 70:70 <> x:4
+R104:107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R116:119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R143:146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R153:159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R160:165 CoqChain.ct00 <> sorted def
+R170:173 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R168:169 CoqChain.ct10 <> a0:1 var
+R174:174 CoqChain.ct10 <> x:4 var
+R149:151 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R147:148 CoqChain.ct10 <> a0:1 var
+R152:152 CoqChain.ct10 <> a:2 var
+R120:130 CoqChain.ct00 <> permutation def
+R136:139 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R135:135 CoqChain.ct10 <> a:2 var
+R140:141 CoqChain.ct10 <> l':3 var
+R132:132 CoqChain.ct10 <> x:4 var
+R108:113 CoqChain.ct00 <> sorted def
+R115:115 CoqChain.ct10 <> x:4 var
+R87:92 CoqChain.ct00 <> sorted def
+R97:100 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R95:96 CoqChain.ct10 <> a0:1 var
+R101:102 CoqChain.ct10 <> l':3 var
+R223:236 Coq.Sorting.Sorted <> Sorted_extends thm
+R223:236 Coq.Sorting.Sorted <> Sorted_extends thm
+R261:271 Coq.Lists.List <> Forall ind
+R283:286 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R274:275 Coq.Init.Peano <> le ind
+R261:271 Coq.Lists.List <> Forall ind
+R283:286 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R274:275 Coq.Init.Peano <> le ind
+R317:330 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R317:330 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R374:384 Coq.Lists.List <> Forall ind
+R387:388 Coq.Init.Peano <> le ind
+R374:384 Coq.Lists.List <> Forall ind
+R387:388 Coq.Init.Peano <> le ind
+R409:426 Coq.Sorting.Permutation <> Permutation_Forall inst
+R409:426 Coq.Sorting.Permutation <> Permutation_Forall inst
+R435:449 Coq.Sorting.Permutation <> Permutation_sym thm
+R435:449 Coq.Sorting.Permutation <> Permutation_sym thm
+R512:521 Coq.Lists.List <> Forall_inv thm
+R512:521 Coq.Lists.List <> Forall_inv thm
+R547:568 Coq.Sets.Relations_1 <> Transitive def
+R577:584 Coq.Arith.Le <> le_trans syndef
+R577:584 Coq.Arith.Le <> le_trans syndef
