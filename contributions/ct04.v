@@ -1,4 +1,4 @@
-Require Import Arith List.
+Require Export Arith List.
 
 Section DivConq.
 
