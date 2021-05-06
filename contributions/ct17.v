@@ -1,6 +1,4 @@
-Require Export ct13 ct16.
-
-From Hammer Require Import Hammer.
+Require Import ct13 ct16.
 
 Lemma permutation_split : forall (l : list nat),
   permutation (fst (split nat l) ++ snd (split nat l)) l.

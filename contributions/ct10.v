@@ -1,4 +1,4 @@
-Require Export ct07.
+Require Import ct07.
 
 Lemma inserted_sorted : forall (a0 a : nat) (l' x : list nat),
   sorted (a0 :: l') -> sorted x -> permutation x (a :: l') -> a0 < a -> 

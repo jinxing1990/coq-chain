@@ -1,4 +1,13 @@
-Require Import ct10 ct09 ct06 ct02.
+Require Import ct00.
+(* ct00 contains the original conjecture. *)
+
+Require Import ct02 ct06 ct09 ct10.
+(* ct02 ct06 ct09 contains the following proven lemmas:
+ * - sort_prog_base
+ * - perm_nil_sort_cons
+ * - perm_tail_cross
+ * - inserted_sorted
+ *)
 
 Lemma sort_ind_case : forall (a a0 : nat) (l' l x : list nat), 
   sorted (a0 :: l') -> permutation (a0 :: l') l 

@@ -1,4 +1,4 @@
-Require Export ct13.
+Require Import ct13.
 
 Lemma permutation_merge_concat : forall (l1 l2 : list nat),
   permutation (merge l1 l2) (l1 ++ l2).

@@ -72,7 +72,7 @@ let lotto_select n m = rand_select (range 1 m) n
   
 
 let () =
-  let l = lotto_select 100 500 in
+  let l = lotto_select 500 500 in
     print_string "Original list:\n"; 
     print_list l; print_newline ();
     let l1 = isort_prog l in
