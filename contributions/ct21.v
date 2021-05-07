@@ -9,9 +9,6 @@ Require Import ct02 ct06 ct20.
  * system, CoqHammer:
  * - sort_prog_base
  * - sort_prog_one
- * - HdRel_merge_snd_cons
- * - sorted_merge_cons
- * - HdRel_merge_fst_cons
  * - sort_prog_pair
  *)
 
