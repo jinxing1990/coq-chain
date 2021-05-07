@@ -35,7 +35,7 @@ div_conq_pair.
   + exists [a1; a2]; split; repeat constructor; auto.
   + exists [a2; a1]; split; repeat constructor; apply Nat.lt_le_incl; auto.
 - intros; destruct H,H0,a,a0; 
-  eapply pair_merge_prog. apply H1. auto. apply H. auto.
+  eapply sort_prog_pair. apply H1. auto. apply H. auto.
 Defined.
 
 (*---------------------------------Extraction---------------------------------*)
