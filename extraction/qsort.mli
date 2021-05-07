@@ -25,7 +25,6 @@ val sort_prog_base : int list
 
 val merge : int list -> int list -> int list
 
-val sort_prog_split_pivot :
-  int -> int list -> int list -> int list -> int list
+val sort_prog_pivot : int -> int list -> int list -> int list -> int list
 
 val qsort_prog : int list -> int list

@@ -4,13 +4,11 @@ Require Import ct00.
 Require Import ct22.
 (* ct16 contains all necessary divide-and-conquer tactics *)
 
-Require Import ct02 ct14 ct15 ct25.
-(* ct02 ct06 ct14 contains the following proven lemmas:
+Require Import ct02 ct15 ct18 ct25.
+(* ct02 ct15 ct18 ct25 contains the following proven lemmas:
  * - sort_prog_base
- * - HdRel_merge_snd_cons
- * - sorted_merge_cons
- * - HdRel_merge_fst_cons
  * - permutation_merge_concat
+ * - merge_sorted
  * - permutation_split_pivot
  *)
 
@@ -24,17 +22,7 @@ Fixpoint merge l1 l2 :=
   end
   in merge_aux l2.
 
-Lemma merge_sorted : forall (l1 l2 : list nat),
-  sorted l1 -> sorted l2 -> sorted (merge l1 l2).
-Proof.
-induction l1; induction l2; intros; simpl; auto.
-destruct (le_lt_dec a a0).
-- constructor. apply IHl1; inversion H; auto. apply HdRel_merge_snd_cons; auto.
-- constructor. eapply sorted_merge_cons; eassumption. 
-  apply HdRel_merge_fst_cons; auto.
-Defined.
-
-Lemma sort_prog_split_pivot : forall (a : nat) (l l' l'0: list nat),
+Lemma sort_prog_pivot : forall (a : nat) (l l' l'0: list nat),
      sorted l' -> permutation l' (snd (split_pivot nat le le_dec a l))
   -> sorted l'0 -> permutation l'0 (fst (split_pivot nat le le_dec a l))
   -> {l'1 : list nat | sorted l'1 /\ permutation l'1 (a :: l)}.
@@ -55,7 +43,7 @@ Lemma qsort_prog :
 Proof.
 unshelve div_conq_pivot. exact le. exact le_dec. 
 - apply sort_prog_base.
-- intros; destruct H,H0,a0,a1; eapply sort_prog_split_pivot.
+- intros; destruct H,H0,a0,a1; eapply sort_prog_pivot.
   exact H1. assumption. exact H. assumption.
 Defined.
 

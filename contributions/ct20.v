@@ -1,4 +1,4 @@
-Require Import ct12 ct15 ct19.
+Require Import ct15 ct18 ct19.
 
 Lemma sort_prog_pair : forall (a1 a2 : nat) (l l' l'0 : list nat),
   sorted l' -> permutation l' l -> 

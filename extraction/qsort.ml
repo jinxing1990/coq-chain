@@ -63,14 +63,14 @@ let rec merge l1 l2 =
          if (<=) a1 a2 then a1 :: (merge l1' l3) else a2 :: (merge_aux l2'))
   in merge_aux l2
 
-(** val sort_prog_split_pivot :
+(** val sort_prog_pivot :
     int -> int list -> int list -> int list -> int list **)
 
-let sort_prog_split_pivot a _ l' l'0 =
+let sort_prog_pivot a _ l' l'0 =
   merge l'0 (a :: l')
 
 (** val qsort_prog : int list -> int list **)
 
 let qsort_prog =
   div_conq_pivot le_dec sort_prog_base (fun a l h h0 ->
-    sort_prog_split_pivot a l h0 h)
+    sort_prog_pivot a l h0 h)

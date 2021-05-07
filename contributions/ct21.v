@@ -5,7 +5,7 @@ Require Import ct16.
 (* ct16 contains all necessary divide-and-conquer tactics *)
 
 Require Import ct02 ct06 ct20.
-(* ct02 ct06 ct14 contains the following lemmas that are solved by the automated
+(* ct02 ct06 ct20 contains the following lemmas that are solved by the automated
  * system, CoqHammer:
  * - sort_prog_base
  * - sort_prog_one
