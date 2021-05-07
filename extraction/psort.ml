@@ -38,10 +38,10 @@ let rec merge l1 l2 =
          if (<=) a1 a2 then a1 :: (merge l1' l3) else a2 :: (merge_aux l2'))
   in merge_aux l2
 
-(** val pair_merge_prog :
+(** val sort_prog_pair :
     int -> int -> int list -> int list -> int list -> int list **)
 
-let pair_merge_prog _ _ _ l' l'0 =
+let sort_prog_pair _ _ _ l' l'0 =
   merge l'0 l'
 
 (** val psort_prog : int list -> int list **)
@@ -49,4 +49,4 @@ let pair_merge_prog _ _ _ l' l'0 =
 let psort_prog =
   div_conq_pair sort_prog_base sort_prog_one (fun a1 a2 ->
     let s = (<=) a1 a2 in if s then a1 :: (a2 :: []) else a2 :: (a1 :: []))
-    (fun a1 a2 l h h0 -> pair_merge_prog a1 a2 l h0 h)
+    (fun a1 a2 l h h0 -> sort_prog_pair a1 a2 l h0 h)

@@ -12,7 +12,7 @@ Require Import ct02 ct06 ct14 ct20.
  * - HdRel_merge_snd_cons
  * - sorted_merge_cons
  * - HdRel_merge_fst_cons
- * - pair_merge_prog
+ * - sort_prog_pair
  *)
 
 Fixpoint merge l1 l2 :=

@@ -14,7 +14,7 @@ val sort_prog_one : int -> int list
 
 val merge : int list -> int list -> int list
 
-val pair_merge_prog :
+val sort_prog_pair :
   int -> int -> int list -> int list -> int list -> int list
 
 val psort_prog : int list -> int list
