@@ -47,12 +47,13 @@ Node (green): Contribution from AI System (CoqHammer)
 
 Additional contributions/Coq files that are not included in any of the images above:
 
-ct04.v: 
-ct11.v: 
-ct16.v: 
-ct21.v: 
-ct22.v: 
-ct26.v: 
+ct04.v: Formalization of new induction princple/tactic `div_conq_split` 
+ct11.v: Connect all the dependent contributions of the proof via `induction` and extract as Ocaml programs (insert_prog, isort_prog)    
+ct16.v: Formalization of new induction princple/tactic `div_conq_pair`
+ct18.v: Connect all the dependent contributions of the proof via `div_conq_split` and extract as Ocaml programs (merge, msort_prog)
+ct21.v: Connect all the dependent contributions of the proof via `div_conq_pair` and extract as Ocaml programs (psort_prog)
+ct22.v: Formalization of new induction princple/tactic `div_conq_pivot`
+ct26.v: Connect all the dependent contributions of the proof via `div_conq_pivot` and extract as Ocaml programs (qsort_prog)
 
 ## Prerequitses
 
