@@ -47,11 +47,11 @@ Node (green): Contribution from AI System (CoqHammer)
 
 Additional contributions/Coq files that are not included in any of the images above:
 
-ct04.v:
-ct11.v:
-ct16.v:
-ct21.v:
-ct22.v:
+ct04.v: 
+ct11.v: 
+ct16.v: 
+ct21.v: 
+ct22.v: 
 ct26.v: 
 
 ## Prerequitses
