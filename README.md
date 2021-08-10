@@ -16,9 +16,18 @@ The "contributions" folder contains Coq files that eventually leads to different
 Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permutation l' l}.
 ```
 
-(NOTE: The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxing1990/coq-formalized-divide-and-conquer.)
+> **NOTE:** The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxing1990/coq-formalized-divide-and-conquer.
 
 The following are the dependencies between the Coq files that lead to different proofs of the theorem type `coq sort_prog`:
+
+--- 
+LEGENDS:
+
+Edge: Type
+Node (dotted): Incomplete (sub)proof term
+Node (solid): Complete (sub)proof term
+Node (green): Contribution from AI System (CoqHammer)   
+---
 
 1. Insertion Sort:
 
@@ -63,4 +72,4 @@ ct04.v:
     ```
     $ make test_extraction
     ```
-(NOTE: To clean all compiled files, run the following command in terminal: ` $ make clean`.)
+> NOTE: To clean all compiled files, run the following command in terminal: ` $ make clean`.
