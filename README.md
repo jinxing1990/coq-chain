@@ -6,12 +6,12 @@ Title: (Auto)Complete this Proof:Decentralized Proof Generation via Smart Contra
 Authors: [Jin Xing Lim](https://www.linkedin.com/in/jin-xing-lim-840814189/), [Barnabé Monnot](https://barnabemonnot.com/), [Georgios Piliouras](https://people.sutd.edu.sg/~georgios/) and [Shaowei Lin](https://shaoweilin.github.io/)   
 Conference: [6th Conference on Artificial Intelligence and Theorem Proving (AITP 2021)](http://aitp-conference.org/2021/)
 
-For potential bugs, please open an issue. 
+For potential bugs, please open an issue.   
 For any other questions, please ask in Discussions.
 
 ## Dependencies between contributions
 
-The "contributions" folder contains Coq files that eventually leads to different formal proofs of the theorem type `coq sort_prog`:
+The "contributions" folder contains Coq files that eventually leads to different formal proofs of the theorem type `sort_prog`:
 ```coq
 Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permutation l' l}.
 ```
