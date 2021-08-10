@@ -32,7 +32,7 @@ For any other questions, please ask in Discussions.
     ```
     $ make test_extraction
     ```
-NOTE: To clean all compiled files, run the following command in terminal:
+NOTE: To clean all compiled files, run the following command in terminal:   
     ```
     $ make clean
     ```
