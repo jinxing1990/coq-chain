@@ -24,8 +24,7 @@ The following are the dependencies between the Coq files that lead to different 
 **LEGENDS:**
 
 Edge: Type  
-Node (dotted): Incomplete (sub)proof term   
-Node (solid): Complete (sub)proof term  
+Node (black): Contribution from human prover   
 Node (green): Contribution from AI System (CoqHammer)   
 
 ---
