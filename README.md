@@ -21,8 +21,7 @@ Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permuta
 The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
 
 --- 
-**LEGENDS:**
-
+> **LEGENDS:**
 Edge: Type  
 Node (black): Contribution from human prover   
 Node (green): Contribution from AI System (CoqHammer)   
