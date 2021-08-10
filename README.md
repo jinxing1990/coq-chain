@@ -1,4 +1,4 @@
-# (Auto)Complete this Proof: \\Decentralized Proof Generation via Smart Contracts
+# (Auto)Complete this Proof: Decentralized Proof Generation via Smart Contracts
 
 Code for the proof of concept presented in the paper:  
 
