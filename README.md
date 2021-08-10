@@ -22,7 +22,7 @@ The following are the dependencies between the Coq files that lead to different 
 
 1. Insertion Sort:
 
-![Insertion Sort](/images/isort_dep.png)
+![Insertion Sort](/images/isort_dep.PNG)
 
 ## Prerequitses
 
