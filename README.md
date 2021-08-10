@@ -22,7 +22,23 @@ The following are the dependencies between the Coq files that lead to different 
 
 1. Insertion Sort:
 
-![Insertion Sort](/images/isort_dep.PNG)
+![Insertion Sort](/images/isort_dep.png)
+
+2. Merge Sort:
+
+![Merge Sort](/images/msort_dep.png)
+
+3. Pair Sort:
+
+
+
+4. Quick Sort:
+
+![Quick Sort](/images/qsort_dep.png)
+
+Additional contributions/Coq files that are not included in any of the images above:
+
+ct04.v: 
 
 ## Prerequitses
 
