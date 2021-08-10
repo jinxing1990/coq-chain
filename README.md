@@ -9,6 +9,21 @@ Conference: [6th Conference on Artificial Intelligence and Theorem Proving (AITP
 For potential bugs, please open an issue.
 For any other questions, please ask in Discussions.
 
+## Dependencies between contributions
+
+The "contributions" folder contains Coq files that eventually leads to different formal proofs of the theorem type `coq sort_prog`:
+```coq
+Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permutation l' l}.
+```
+
+(NOTE: The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxing1990/coq-formalized-divide-and-conquer.)
+
+The following are the dependencies between the Coq files that lead to different proofs of the theorem type `coq sort_prog`:
+
+1. Insertion Sort:
+
+![Insertion Sort](/images/isort_dep.png)
+
 ## Prerequitses
 
 1. Coq Version 8.12
@@ -32,7 +47,4 @@ For any other questions, please ask in Discussions.
     ```
     $ make test_extraction
     ```
-NOTE: To clean all compiled files, run the following command in terminal:
-    ```
-    $ make clean
-    ```
+(NOTE: To clean all compiled files, run the following command in terminal: ` $ make clean`.)
