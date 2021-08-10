@@ -18,10 +18,10 @@ Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permuta
 
 > **NOTE:** The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxing1990/coq-formalized-divide-and-conquer.
 
-The following are the dependencies between the Coq files that lead to different proofs of the theorem type `coq sort_prog`:
+The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
 
 --- 
-LEGENDS:
+**LEGENDS:**
 
 Edge: Type  
 Node (dotted): Incomplete (sub)proof term   
