@@ -2,7 +2,7 @@
 
 Code for the proof of concept presented in the paper:  
 
-Title: (Auto)Complete this Proof:Decentralized Proof Generation via Smart Contracts   
+Title: (Auto)Complete this Proof: Decentralized Proof Generation via Smart Contracts   
 Authors: [Jin Xing Lim](https://www.linkedin.com/in/jin-xing-lim-840814189/), [Barnabé Monnot](https://barnabemonnot.com/), [Georgios Piliouras](https://people.sutd.edu.sg/~georgios/) and [Shaowei Lin](https://shaoweilin.github.io/)   
 Conference: [6th Conference on Artificial Intelligence and Theorem Proving (AITP 2021)](http://aitp-conference.org/2021/)
 
@@ -16,7 +16,7 @@ The "contributions" folder contains Coq files that eventually leads to different
 Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permutation l' l}.
 ```
 
-> **NOTE:** The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxing1990/coq-formalized-divide-and-conquer.
+> **NOTE:** The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxinglim/coq-formalized-divide-and-conquer.
 
 The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
 
