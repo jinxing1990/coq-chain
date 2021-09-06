@@ -18,7 +18,7 @@ Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permuta
 
 > **NOTE:** The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxinglim/coq-formalized-divide-and-conquer.
 
-The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
+<!-- The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
 
 ---
 > **LEGENDS:**      
@@ -52,7 +52,7 @@ Additional contributions/Coq files that are not included in any of the images ab
 **ct18.v:** Connect all the dependent contributions of the proof via `div_conq_split` and extract as Ocaml programs (merge, msort_prog)     
 **ct21.v:** Connect all the dependent contributions of the proof via `div_conq_pair` and extract as Ocaml programs (psort_prog)     
 **ct22.v:** Formalization of new induction princple/tactic `div_conq_pivot`     
-**ct26.v:** Connect all the dependent contributions of the proof via `div_conq_pivot` and extract as Ocaml programs (qsort_prog)        
+**ct26.v:** Connect all the dependent contributions of the proof via `div_conq_pivot` and extract as Ocaml programs (qsort_prog)         -->
 
 ## Prerequitses
 
