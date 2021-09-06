@@ -9,8 +9,8 @@ Conference: [6th Conference on Artificial Intelligence and Theorem Proving (AITP
 For potential bugs, please open an issue.   
 For any other questions, please ask in Discussions.
 
-## Dependencies between contributions
-
+<!-- ## Dependencies between contributions
+ -->
 The "contributions" folder contains Coq files that eventually leads to different formal proofs of the theorem type `sort_prog`:
 ```coq
 Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permutation l' l}.
