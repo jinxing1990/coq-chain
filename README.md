@@ -1,16 +1,19 @@
-# (Auto)Complete this Proof: Decentralized Proof Generation via Smart Contracts
+<!-- # (Auto)Complete this Proof: Decentralized Proof Generation via Smart Contracts
 
 Code for the proof of concept presented in the paper:  
 
 Title: [(Auto)Complete this Proof: Decentralized Proof Generation via Smart Contracts](http://aitp-conference.org/2021/abstract/paper_7.pdf)   
 Authors: [Jin Xing Lim](https://jinxinglim.github.io/), [Barnabé Monnot](https://barnabemonnot.com/), [Georgios Piliouras](https://people.sutd.edu.sg/~georgios/) and [Shaowei Lin](https://shaoweilin.github.io/)   
 Conference: [6th Conference on Artificial Intelligence and Theorem Proving (AITP 2021)](http://aitp-conference.org/2021/)
+ -->
+ 
+# coq-chain
 
 For potential bugs, please open an issue.   
 For any other questions, please ask in Discussions.
 
-<!-- ## Dependencies between contributions
- -->
+## Dependencies between contributions
+
 The "contributions" folder contains Coq files that eventually leads to different formal proofs of the theorem type `sort_prog`:
 ```coq
 Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permutation l' l}.
@@ -18,7 +21,7 @@ Theorem sort_prog : forall (l : list nat), {l' : list nat | sorted l' /\ permuta
 
 > **NOTE:** The original and full documentation of formalization of different variations of divide-and-conquer algorithm design paradigm for lists and the different sorting algorithms' proofs and programs can be found on https://github.com/jinxinglim/coq-formalized-divide-and-conquer.
 
-<!-- The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
+The following are the dependencies between the Coq files that lead to different proofs of the theorem type `sort_prog`:
 
 ---
 > **LEGENDS:**      
@@ -52,7 +55,7 @@ Additional contributions/Coq files that are not included in any of the images ab
 **ct18.v:** Connect all the dependent contributions of the proof via `div_conq_split` and extract as Ocaml programs (merge, msort_prog)     
 **ct21.v:** Connect all the dependent contributions of the proof via `div_conq_pair` and extract as Ocaml programs (psort_prog)     
 **ct22.v:** Formalization of new induction princple/tactic `div_conq_pivot`     
-**ct26.v:** Connect all the dependent contributions of the proof via `div_conq_pivot` and extract as Ocaml programs (qsort_prog)         -->
+**ct26.v:** Connect all the dependent contributions of the proof via `div_conq_pivot` and extract as Ocaml programs (qsort_prog)        
 
 ## Prerequitses
 
